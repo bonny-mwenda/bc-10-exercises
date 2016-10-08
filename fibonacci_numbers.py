@@ -1,5 +1,8 @@
+'''Function to get a list of fibonacci numbers'''
+
+
 def fibonacci(n):
-    '''Get the fibonacci numbers of the 1st n terms'''
+    '''Get fibonacci numbers of the 1st n terms'''
 
     # Initialize first two fibonacci numbers
     fib1 = 0
