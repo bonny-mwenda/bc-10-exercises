@@ -5,6 +5,12 @@ from prime_numbers import get_primes
 class PrimeNumbersTest(unittest.TestCase):
     """Test prime_numbers function"""
 
+    def test_for_zero(self):
+        """Test that zero returns an empty list"""
+
+        self.assertEqual(get_primes(0), [], msg="Zero should return an empty list")
+
+
     def test_first_three_primes(self):
         """Test first three prime numbers"""
 
