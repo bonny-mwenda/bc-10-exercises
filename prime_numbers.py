@@ -1,8 +1,10 @@
-'''A function that gets a list of prime numbers, 0 - n'''
+'''A function that gets a list of prime numbers'''
 
 
 def get_primes(n):
-    # Create a list with first prime number
+    '''Get a list of first n prime numbers'''
+
+    # Create a list with the first prime number
     lst = [2]
     # Test each number for primeness, starting with 3
     testNum = 3
