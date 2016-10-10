@@ -27,19 +27,19 @@ class Beverage(object):
             return "Cheers!" + " You have {0} units of {1} left".format(self.volume, self.name)
 
     def price(self):
-        """set the price of the beverage
-
-        Methods:
-        drink - uses drink method inherited from beverage class
-        price - sets the price of alcoholic drink
-        """
+        """set the price of the beverage"""
 
         self.__price = self.volume * 10
         return self.__price
 
 
 class Alcohol(Beverage):
-    """Alcohol class that inherits from Beverage"""
+    """Alcohol class that inherits from Beverage
+
+    Methods:
+    drink - uses drink method inherited from beverage class
+    price - sets the price of alcoholic drink
+    """
 
     def __init__(self, name, type_, volume, age=None):
         """Initialize Drink class
@@ -76,6 +76,5 @@ class Alcohol(Beverage):
 
         self.__price = self.age * self.volume * 10
         return self.__price
-
 
 
