@@ -76,5 +76,3 @@ class Alcohol(Beverage):
 
         self.__price = self.age * self.volume * 10
         return self.__price
-
-
