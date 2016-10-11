@@ -1,6 +1,5 @@
 # Andela BootCamp 10 Exercises
 
-## Self Learning Clinic
 ### Prime Numbers
 This is an implementation of a function that returns a list of the first n prime numbers, where n is any integer value.
 Example: Given `n = 5`
@@ -28,5 +27,5 @@ Methods:
 * price - sets the price based on age of the drink
 
 ## Day 2
-A simple application that gives a weather forecast using a Public API. The API used is the OpenWeatherMap, and the respomse is a JSON. Python's `requests` library is used to send the GET request.
+A simple application that gives Nairobi's five day weather forecast for every three hours using a Public API. The API used is the OpenWeatherMap, and the response is in JSON format. Python's `requests` library is used to send the GET request.
 
