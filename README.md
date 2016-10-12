@@ -1,5 +1,16 @@
 # Andela BootCamp 10 Exercises
 
+This repo contains the expected outputs of Andela Bootcamp 10. The outputs have been sorted in folders corresponding to their respective days. Unittests of each file can be found in a sub-folder named 'tests' for each day.
+
+All exercises have been done using `python 3.4`. In case you need to clone this repo to your local drive, copy this code to your terminal.
+
+`$ git clone git@github.com:bonny-mwenda/bc-10-exercises.git`
+
+Below is a description of what each of the folders contain.
+
+## Clinic
+This contains exercises for Andela Bootcamp 10 self learning clinic.
+
 ### Prime Numbers
 This is an implementation of a function that returns a list of the first n prime numbers, where n is any integer value.
 Example: Given `n = 5`
