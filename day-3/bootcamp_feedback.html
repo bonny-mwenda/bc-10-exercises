@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html lang='en-us'>
+<!--A web page for rating Andela facilities and boot camp facilitators-->
+
+	<head>
+		<title>Boot camp Feedback</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<h1 class="title">Andela Boot Camp Feedback Form</h1>
+		<section>
+		<!--Create form to record boot camper innformation-->
+			<form action="thankyou.html" method="post">
+			<!--Canvas for personal details-->
+				<fieldset>
+					<legend>Personal Details</legend>
+					<label>Surname:</label><br>
+					<input required type="text" required name="surname" placeholder="Surname"><br>
+					<label>Other Names:</label><br>
+					<input required type="text" name="other_name" placeholder="Other names"><br>
+					<label>Gender:</label><br>
+					<input required type="radio" name="gender" value="male">Male
+					<input required type="radio" name="gender" value="female">Female<br>
+					<label>Email:</label><br>
+					<input required type="email" name="email" placeholder="email"><br>
+				</fieldset>
+
+				<!--Canvas for cohort information-->
+				<fieldset>
+					<legend>Cohort Details</legend>
+					<label>Cohort:</label><br>
+					<input required type="number" name="cohort" placeholder="cohort number"><br>
+					<label>Start Date:</label><br>
+					<input required type="date" name="start_date" placeholder="dd/mm/yyyy"><br>
+					<label>Facilitator:</label><br>
+					<input required type="text" name="facilitator" placeholder="Facilitator name"><br>
+				</fieldset>
+
+				<!--Canvas for Andela rating-->
+				<fieldset>
+					<legend>Rate Andela</legend>
+					<label>Accessibility:</label><br>
+					<select required>
+						<option value = "" disabled selected>Select</option>
+						<option value="excellent">Excellent</option>
+						<option value="good">Good</option>
+						<option value="fair">Fair</option>
+						<option value="poor">Poor</option>
+					</select><br>
+					<label>Resources:</label><br>
+					<select required>
+						<option value = "" disabled selected>Select</option>
+						<option value="excellent">Excellent</option>
+						<option value="good">Good</option>
+						<option value="fair">Fair</option>
+						<option value="poor">Poor</option>
+					</select><br>
+					<label>Food:</label><br>
+					<select required>
+						<option value = "" disabled selected>Select</option>
+						<option value="excellent">Excellent</option>
+						<option value="good">Good</option>
+						<option value="fair">Fair</option>
+						<option value="poor">Poor</option>
+					</select><br>
+				</fieldset>
+
+				<!--Canvas for facilitator information-->
+				<fieldset>
+					<legend>Rate Facilitator</legend>
+					<label>Availability:</label><br>
+					<select required>
+						<option value = "" disabled selected>Select</option>
+						<option value="excellent">Excellent</option>
+						<option value="good">Good</option>
+						<option value="fair">Fair</option>
+						<option value="poor">Poor</option>
+					</select><br>
+					<label>Communication Skills:</label><br>
+					<select required>
+						<option value = "" disabled selected>Select</option>
+						<option value="excellent">Excellent</option>
+						<option value="good">Good</option>
+						<option value="fair">Fair</option>
+						<option value="poor">Poor</option>
+					</select><br>
+					<label>Feedback:</label><br>
+					<select required>
+						<option value = "" disabled selected>Select</option>
+						<option value="excellent">Excellent</option>
+						<option value="good">Good</option>
+						<option value="fair">Fair</option>
+						<option value="poor">Poor</option>
+					</select><br>
+					<!--Text area field fo any additional information-->
+					<textarea cols=80 rows="3" name="info" placeholder="Additional information"></textarea><br>
+				</fieldset>
+				<input type="submit" value="Submit" />			
+			</form>
+		</section>
+	</body>
+	<footer>
+		<p>Andela&copy; 2016</p>
+	</footer>
+</html>
+
