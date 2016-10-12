@@ -31,4 +31,5 @@ A simple application that gives Nairobi's five day weather forecast for every th
 
 ## Day 3
 This folder contains a simple web page where boot campers can rate their experience at Andela. The rating considers Andela facilities and the help/assistance provided by the facilitators. See a screenshot of the interface below:
+
 <img width="551" alt="screenshot" src="https://cloud.githubusercontent.com/assets/19901453/19316056/b1c00332-90a8-11e6-8a4f-8989c42a5bc7.png">
