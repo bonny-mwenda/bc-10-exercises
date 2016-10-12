@@ -29,3 +29,6 @@ Methods:
 ## Day 2
 A simple application that gives Nairobi's five day weather forecast for every three hours using a Public API. The API used is the OpenWeatherMap, and the response is in JSON format. Python's `requests` library is used to send the GET request.
 
+## Day 3
+This folder contains a simple web page where boot campers can rate their experience at Andela. The rating considers Andela facilities and the help/assistance provided by the facilitators.
+
