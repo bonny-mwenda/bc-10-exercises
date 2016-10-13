@@ -42,4 +42,3 @@ class Car(object):
             moving_speed = 10 ** speed
         self.speed = moving_speed
         return self
-
